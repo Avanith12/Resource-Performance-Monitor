@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rpm-yellow: #FFD700;
+  --color-rpm-green: #00FF00;
+  --color-rpm-dark: #111111;
+  --color-rpm-carbon: #1a1a1a;
+  --color-rpm-red: #ff2a2a;
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-rpm-dark text-white font-sans overflow-hidden;
+    /* Carbon fiber pattern background */
+    background-image: 
+      radial-gradient(#2a2a2a 1px, transparent 1px),
+      radial-gradient(#2a2a2a 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+  }
+}
+
+.gauge-glow {
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+}
