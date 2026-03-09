@@ -1,5 +1,7 @@
 # RPM (Resource Performance Monitor)
 
+**Live Dashboard:** [https://resource-performance-monitor-nine.vercel.app/](https://resource-performance-monitor-nine.vercel.app/)
+
 A high-octane, supercar-themed performance dashboard that displays true, real-time telemetry of your machine's CPU, RAM, and GPU.
 
 ## How it Works (The Architecture)
